@@ -1,29 +1,145 @@
-#cabeza{
-  background: red;
+#cabeza_sm{
+  background-image: 
+    linear-gradient(transparent 49%, black 50%, transparent 50%),
+    linear-gradient(45deg, transparent 49%, black 50%, transparent 50%),
+    linear-gradient(90deg,transparent 49%, black 50%, transparent 50%),
+    linear-gradient(-45deg, transparent 49%, black 50%, transparent 50%),
+    repeating-radial-gradient(red, red 10%,  black 11%, red 12%);
   width: 150px;
-  height: 150px;
-  border-radius: 80px; 
-  border: 5px dotted black;
+  padding-top: 50x;
+  padding-bottom: 100px;
+  border-radius: 50%;
+  
+  border: 1px solid black;
+  oerflow: hidden;
+}
+
+
+.ojosN{
+  background: linear-gradient(36deg, black 45%, transparent 45%);
+  width: 80px;
+  height: 60px;
+  border-radius: 50%;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.ojosW{
+  background: linear-gradient(36deg, white 45%, transparent 45%);
+  width: 50px;
+  height: 45px;
+  position: absolute;
+  border-radius: 50%;
+  margin-top: 10px;
+  margin-left: 5px;
+  
+  
+}
+
+#ojoNIzq{
+  position: relative;
+  margin-left: 10;
+  margin-top: 50;
+}
+
+#ojoNDer{
+  margin-left: 60;
+  margin-top: -60;
+  z-index: 2;
+  transform: scalex(-1);
+
+}
+
+#head_MK{
+  background: radial-gradient(gray, black);
+  width: 180px;
+  height: 200px;
+  border: 1px solid black;
+  border-radius: 80px;
+  overflow: hidden;
+  
+}
+#nariz{
+  background: linear-gradient(50deg, gray, black 45%, transparent 45%);
+  width: 25px;
+  height: 15px;
+  transform: rotate(130deg);
+  margin-top: 60%;
+  margin-left: 40%;
+  position: relative;
 }
 
 .ojos{
+  position: relative;
+  width: 25px;
+  height: 25px;
+  background: linear-gradient(36deg, silver 45%, black 45%);
+  border-radius: 50px;
+  margin-top: -35%;
+  margin-left: 20%;
+}
+
+#ojoI{
+  margin-left: 21%;
+  
+}
+
+#ojoD{
+  transform: scaleX(-1);
+  margin-left: 310%;
+}
+
+.capa{
+  position: relative;
   background: white;
-  width: 30px;
+  width: 250px;
+  height: 250px;
+  transform: rotate(45deg);
+}
+
+#capa1{
+  background: linear-gradient(to bottom, gray, white);
+  margin-top: -110%;
+  margin-left: -20%;
+  z-index: 4;
+}
+
+#capa2{
+  background: linear-gradient(to bottom, gray, white);
+  margin-top: -100%;
+  margin-left: -125%;
+  z-index: 3;
+}
+
+#capa3{
+  background: silver;
+  margin-top: -190%;
+  margin-left: 40%;
+  z-index: 2;
+}
+
+.luna{
+  position: absolute;
+  background: black;
+  z-index: 5;  
+}
+
+#luna1{
+  margin-top: 2%;
+  margin-left: 65px;
+  
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  overflow: hidden;
+
+}
+#luna2{
+  margin-top: 2%;
+  margin-left: 20px;
+  background: white;
+  border-radius: 50px;
+
   height: 30px;
-  border-radius: 20px;
-  border: 2px solid black;
-}
-#ojoIzq{
-  position: relative;
-  top: 50px;
-  left: 30px;
-  right: ;
-  bottom: ;
-}
-#ojoDer{
-  position: relative;
-  top: 16px;
-  left: 80px;
-  right: ;
-  bottom: ;
+  width: 30px;
+
 }
